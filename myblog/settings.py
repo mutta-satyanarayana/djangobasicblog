@@ -29,7 +29,7 @@ SECRET_KEY = 'kf6uidj06(&^+mgak2lbz6&g77842_*doamdax0+1*)fejehz*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangobasicblog.herokuapp.com']
 
 
 # Application definition
