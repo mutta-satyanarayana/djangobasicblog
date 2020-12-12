@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'kf6uidj06(&^+mgak2lbz6&g77842_*doamdax0+1*)fejehz*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -124,8 +124,8 @@ STATIC_URL = '/static/'
 
 ## Email configure
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'apssdcsip@gmail.com'
-EMAIL_HOST_PASSWORD = 'satyanarayana'
+EMAIL_HOST_USER = 'yourmail@gmail.com'
+EMAIL_HOST_PASSWORD = 'mailpassword'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
