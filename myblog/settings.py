@@ -11,8 +11,8 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-import django_heroku
-import dj_database_url
+#import django_heroku
+#import dj_database_url
 #from decouple import config
 
 
@@ -142,4 +142,4 @@ EMAIL_USE_TLS = True
 EMAIL_BACKEND	=	'django.core.mail.backends.smtp.EmailBackend'
 DEFAULT_FROM_EMAIL  = 'admin@my-site.com'
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
