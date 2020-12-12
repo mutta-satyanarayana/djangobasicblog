@@ -124,8 +124,8 @@ STATIC_URL = '/static/'
 
 ## Email configure
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'yourmail@gmail.com'
-EMAIL_HOST_PASSWORD = 'mailpassword'
+EMAIL_HOST_USER = 'apssdcsip@gmail.com'
+EMAIL_HOST_PASSWORD = 'satyanarayana'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
